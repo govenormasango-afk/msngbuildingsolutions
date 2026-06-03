@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shield, Wrench, DollarSign, Eye, Home, Building2, HardHat, Check } from "lucide-react";
+import { Shield, Wrench, DollarSign, Eye, Home, Building2, HardHat } from "lucide-react";
 
 const reasons = [
   { icon: Shield, text: "Reliable and Professional Service" },
