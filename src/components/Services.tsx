@@ -1,30 +1,42 @@
 import { motion } from "framer-motion";
-import { Home, Building2, Hammer, HardHat } from "lucide-react";
+import { Droplets, Zap, Paintbrush, TreePine, Grid3X3, Monitor } from "lucide-react";
 
 const services = [
   {
-    icon: Home,
-    title: "Residential Construction",
+    icon: Droplets,
+    title: "Plumbing",
     description:
-      "Custom homes, extensions, and renovations tailored to your lifestyle and budget. From foundation to finish.",
+      "Full plumbing installation, repairs, and maintenance for homes and businesses — leaks, pipes, fixtures, and more.",
   },
   {
-    icon: Building2,
-    title: "Commercial Projects",
+    icon: Zap,
+    title: "Electrical",
     description:
-      "Offices, retail spaces, and industrial builds delivered on time with minimal disruption to your business.",
+      "Safe wiring, installations, fault finding, and electrical upgrades handled by qualified professionals.",
   },
   {
-    icon: Hammer,
-    title: "Renovations & Remodels",
+    icon: Paintbrush,
+    title: "Painting",
     description:
-      "Kitchens, bathrooms, and full-home transformations that add value and modernize your living space.",
+      "Interior and exterior painting with a flawless finish — color consultation, prep work, and cleanup included.",
   },
   {
-    icon: HardHat,
-    title: "Project Management",
+    icon: TreePine,
+    title: "Landscaping",
     description:
-      "End-to-end oversight from permits to punch list. We coordinate trades, timelines, and budgets so you don't have to.",
+      "Transform outdoor spaces with design, planting, lawns, paving, and garden maintenance that brings your vision to life.",
+  },
+  {
+    icon: Grid3X3,
+    title: "Tiling",
+    description:
+      "Precision floor and wall tiling for bathrooms, kitchens, and living areas — clean lines and lasting quality.",
+  },
+  {
+    icon: Monitor,
+    title: "Desktop Support",
+    description:
+      "Reliable IT helpdesk and desktop support for small businesses — troubleshooting, setup, and ongoing maintenance.",
   },
 ];
 
