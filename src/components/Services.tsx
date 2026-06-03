@@ -55,11 +55,10 @@ export default function Services() {
             What We Do
           </span>
           <h2 className="mt-3 font-[family-name:var(--font-heading)] text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Full-service construction
+            Complete home & business solutions
           </h2>
           <p className="mt-4 max-w-xl text-base text-muted-foreground">
-            From initial concept to final handover, we handle every phase of
-            your build with precision and care.
+            From fixing a leak to landscaping your garden and setting up your office IT — we do it all with skill and reliability.
           </p>
         </motion.div>
 
