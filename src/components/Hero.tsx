@@ -48,9 +48,9 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
             className="mt-6 max-w-md text-base leading-relaxed text-primary-foreground/80 md:text-lg"
           >
-            Plumbing, electrical, painting, landscaping, tiling, and IT support
-            — all under one roof. Reliable trades and tech services for your
-            home and business.
+            Plumbing, water, electrical, and building maintenance — leak
+            repairs, JoJo tanks, DB upgrades, tiling, painting, and more.
+            One trusted team for your home or business.
           </motion.p>
 
           <motion.div
