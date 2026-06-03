@@ -29,6 +29,7 @@ function LandingPage() {
         <Services />
         <Projects />
         <About />
+        <WhyChooseUs />
         <Contact />
       </main>
       <Footer />
