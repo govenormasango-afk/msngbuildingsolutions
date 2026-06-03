@@ -11,9 +11,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "MSNG Building Solutions" },
-      { name: "description", content: "Expert construction and renovation services built to last." },
+      { name: "description", content: "Plumbing, electrical, painting, landscaping, tiling, and desktop support — all in one place." },
       { property: "og:title", content: "MSNG Building Solutions" },
-      { property: "og:description", content: "Expert construction and renovation services built to last." },
+      { property: "og:description", content: "Plumbing, electrical, painting, landscaping, tiling, and desktop support — all in one place." },
     ],
   }),
   component: LandingPage,
