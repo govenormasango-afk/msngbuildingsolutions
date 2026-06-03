@@ -4,27 +4,27 @@ import { Droplets, Zap, Wrench, CloudRain } from "lucide-react";
 const services = [
   {
     icon: Wrench,
-    title: "Plumbing",
+    title: "Plumbing Solutions",
     description:
-      "Leak detection and repairs, pipe installation, fixture fitting, and full plumbing maintenance for homes and businesses.",
+      "Leak detection & repairs, burst pipes, drain unblocking, pipe installations, tap & toilet repairs, geyser installations and repairs, bathroom & kitchen plumbing, water pressure solutions, and general plumbing maintenance.",
   },
   {
     icon: CloudRain,
     title: "Water Solutions",
     description:
-      "JoJo tank supply and installation, water pump systems, and reliable water storage and pressure solutions for any property.",
+      "JoJo tank installations, water tank connections, water pumps, borehole connections, rainwater harvesting systems, water filtration systems, and water storage solutions.",
   },
   {
     icon: Zap,
-    title: "Electrical",
+    title: "Electrical Solutions",
     description:
-      "Certified wiring, DB board upgrades, sub-meter installations, fault finding, and safe electrical work for homes and businesses.",
+      "Electrical installations & repairs, house wiring and rewiring, fault finding, DB board upgrades, DB board installations and repairs, sub-meter & prepaid meter installations, lighting, plug & switch installations, and electrical maintenance.",
   },
   {
     icon: Droplets,
     title: "Building Maintenance",
     description:
-      "Painting, tiling, bricklaying, and general property maintenance — keeping your building looking sharp and structurally sound.",
+      "Painting, tiling, bricklaying, paving, ceiling installations and repairs, waterproofing, roof repairs, plastering, renovations, and general property maintenance.",
   },
 ];
 
