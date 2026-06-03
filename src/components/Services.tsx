@@ -43,10 +43,10 @@ export default function Services() {
             What We Do
           </span>
           <h2 className="mt-3 font-[family-name:var(--font-heading)] text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Complete home & business solutions
+            Plumbing, water, electrical & maintenance
           </h2>
           <p className="mt-4 max-w-xl text-base text-muted-foreground">
-            From fixing a leak to landscaping your garden and setting up your office IT — we do it all with skill and reliability.
+            From leak repairs and JoJo tank installations to DB upgrades, tiling, and bricklaying — one trusted team for every job on your property.
           </p>
         </motion.div>
 
