@@ -1,30 +1,42 @@
 import { motion } from "framer-motion";
-import { Home, Building2, Hammer, HardHat } from "lucide-react";
+import { Droplets, Zap, Paintbrush, TreePine, Grid3X3, Monitor } from "lucide-react";
 
 const services = [
   {
-    icon: Home,
-    title: "Residential Construction",
+    icon: Droplets,
+    title: "Plumbing",
     description:
-      "Custom homes, extensions, and renovations tailored to your lifestyle and budget. From foundation to finish.",
+      "Full plumbing installation, repairs, and maintenance for homes and businesses — leaks, pipes, fixtures, and more.",
   },
   {
-    icon: Building2,
-    title: "Commercial Projects",
+    icon: Zap,
+    title: "Electrical",
     description:
-      "Offices, retail spaces, and industrial builds delivered on time with minimal disruption to your business.",
+      "Safe wiring, installations, fault finding, and electrical upgrades handled by qualified professionals.",
   },
   {
-    icon: Hammer,
-    title: "Renovations & Remodels",
+    icon: Paintbrush,
+    title: "Painting",
     description:
-      "Kitchens, bathrooms, and full-home transformations that add value and modernize your living space.",
+      "Interior and exterior painting with a flawless finish — color consultation, prep work, and cleanup included.",
   },
   {
-    icon: HardHat,
-    title: "Project Management",
+    icon: TreePine,
+    title: "Landscaping",
     description:
-      "End-to-end oversight from permits to punch list. We coordinate trades, timelines, and budgets so you don't have to.",
+      "Transform outdoor spaces with design, planting, lawns, paving, and garden maintenance that brings your vision to life.",
+  },
+  {
+    icon: Grid3X3,
+    title: "Tiling",
+    description:
+      "Precision floor and wall tiling for bathrooms, kitchens, and living areas — clean lines and lasting quality.",
+  },
+  {
+    icon: Monitor,
+    title: "Desktop Support",
+    description:
+      "Reliable IT helpdesk and desktop support for small businesses — troubleshooting, setup, and ongoing maintenance.",
   },
 ];
 
@@ -43,15 +55,14 @@ export default function Services() {
             What We Do
           </span>
           <h2 className="mt-3 font-[family-name:var(--font-heading)] text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Full-service construction
+            Complete home & business solutions
           </h2>
           <p className="mt-4 max-w-xl text-base text-muted-foreground">
-            From initial concept to final handover, we handle every phase of
-            your build with precision and care.
+            From fixing a leak to landscaping your garden and setting up your office IT — we do it all with skill and reliability.
           </p>
         </motion.div>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, i) => (
             <motion.div
               key={service.title}

@@ -43,10 +43,10 @@ export default function Contact() {
             Get in Touch
           </span>
           <h2 className="mt-3 font-[family-name:var(--font-heading)] text-3xl font-bold tracking-tight md:text-4xl">
-            Let's build something together
+            Let's get it sorted
           </h2>
           <p className="mt-4 max-w-xl text-base text-primary-foreground/70">
-            Tell us about your project. We'll respond within 24 hours with a
+            Tell us what you need. We'll respond within 24 hours with a
             free estimate and timeline.
           </p>
         </motion.div>
@@ -130,9 +130,12 @@ export default function Contact() {
                       className="w-full rounded-md border border-primary-foreground/20 bg-primary-foreground/5 px-4 py-3 text-sm text-primary-foreground focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
                     >
                       <option value="">Select a service</option>
-                      <option value="residential">Residential Build</option>
-                      <option value="commercial">Commercial Project</option>
-                      <option value="renovation">Renovation</option>
+                      <option value="plumbing">Plumbing</option>
+                      <option value="electrical">Electrical</option>
+                      <option value="painting">Painting</option>
+                      <option value="landscaping">Landscaping</option>
+                      <option value="tiling">Tiling</option>
+                      <option value="desktop-support">Desktop Support</option>
                       <option value="other">Other</option>
                     </select>
                   </div>

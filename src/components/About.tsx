@@ -27,16 +27,15 @@ export default function About() {
             </h2>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
-                MSNG Building Solutions was founded on a simple belief: every
-                structure should be built to stand the test of time. Over the
-                past 15 years, we've grown from a small family operation into a
-                trusted name across residential and commercial construction.
+                MSNG Building Solutions started with one goal: make property
+                maintenance simple and stress-free. Over the years, we've grown
+                from a local handyman service into a trusted partner for homes
+                and businesses across the region.
               </p>
               <p>
-                Our team of certified builders, project managers, and trades
-                specialists brings decades of combined experience to every
-                project — whether it's a bespoke home, a commercial fit-out,
-                or a complex renovation.
+                Our team brings together skilled plumbers, electricians,
+                painters, landscapers, tilers, and IT technicians — so you only
+                need one call, no matter the job.
               </p>
               <p>
                 We don't cut corners. We don't miss deadlines. And we never
