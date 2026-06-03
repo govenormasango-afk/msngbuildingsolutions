@@ -130,12 +130,14 @@ export default function Contact() {
                       className="w-full rounded-md border border-primary-foreground/20 bg-primary-foreground/5 px-4 py-3 text-sm text-primary-foreground focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
                     >
                       <option value="">Select a service</option>
-                      <option value="plumbing">Plumbing</option>
-                      <option value="electrical">Electrical</option>
+                      <option value="plumbing">Plumbing & Leak Repairs</option>
+                      <option value="water">Water (JoJo Tanks & Pumps)</option>
+                      <option value="electrical">Electrical / DB Upgrades</option>
+                      <option value="sub-meter">Sub-Meter Installation</option>
                       <option value="painting">Painting</option>
-                      <option value="landscaping">Landscaping</option>
                       <option value="tiling">Tiling</option>
-                      <option value="desktop-support">Desktop Support</option>
+                      <option value="bricklaying">Bricklaying</option>
+                      <option value="maintenance">General Maintenance</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
