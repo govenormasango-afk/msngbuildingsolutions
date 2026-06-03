@@ -34,8 +34,9 @@ export default function About() {
               </p>
               <p>
                 Our team brings together skilled plumbers, electricians,
-                painters, landscapers, tilers, and IT technicians — so you only
-                need one call, no matter the job.
+                tilers, painters, and bricklayers — handling everything from
+                leak repairs and JoJo tank installs to DB upgrades, sub-meters,
+                and general building maintenance. One call covers it all.
               </p>
               <p>
                 We don't cut corners. We don't miss deadlines. And we never

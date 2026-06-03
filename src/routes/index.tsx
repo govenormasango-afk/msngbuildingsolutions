@@ -11,9 +11,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "MSNG Building Solutions" },
-      { name: "description", content: "Plumbing, electrical, painting, landscaping, tiling, and desktop support — all in one place." },
+      { name: "description", content: "Plumbing, water, electrical, and building maintenance — leak repairs, JoJo tanks, DB upgrades, painting, tiling, and bricklaying." },
       { property: "og:title", content: "MSNG Building Solutions" },
-      { property: "og:description", content: "Plumbing, electrical, painting, landscaping, tiling, and desktop support — all in one place." },
+      { property: "og:description", content: "Plumbing, water, electrical, and building maintenance — leak repairs, JoJo tanks, DB upgrades, painting, tiling, and bricklaying." },
     ],
   }),
   component: LandingPage,

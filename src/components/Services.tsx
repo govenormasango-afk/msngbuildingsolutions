@@ -1,42 +1,30 @@
 import { motion } from "framer-motion";
-import { Droplets, Zap, Paintbrush, TreePine, Grid3X3, Monitor } from "lucide-react";
+import { Droplets, Zap, Wrench, CloudRain } from "lucide-react";
 
 const services = [
   {
-    icon: Droplets,
+    icon: Wrench,
     title: "Plumbing",
     description:
-      "Full plumbing installation, repairs, and maintenance for homes and businesses — leaks, pipes, fixtures, and more.",
+      "Leak detection and repairs, pipe installation, fixture fitting, and full plumbing maintenance for homes and businesses.",
+  },
+  {
+    icon: CloudRain,
+    title: "Water Solutions",
+    description:
+      "JoJo tank supply and installation, water pump systems, and reliable water storage and pressure solutions for any property.",
   },
   {
     icon: Zap,
     title: "Electrical",
     description:
-      "Safe wiring, installations, fault finding, and electrical upgrades handled by qualified professionals.",
+      "Certified wiring, DB board upgrades, sub-meter installations, fault finding, and safe electrical work for homes and businesses.",
   },
   {
-    icon: Paintbrush,
-    title: "Painting",
+    icon: Droplets,
+    title: "Building Maintenance",
     description:
-      "Interior and exterior painting with a flawless finish — color consultation, prep work, and cleanup included.",
-  },
-  {
-    icon: TreePine,
-    title: "Landscaping",
-    description:
-      "Transform outdoor spaces with design, planting, lawns, paving, and garden maintenance that brings your vision to life.",
-  },
-  {
-    icon: Grid3X3,
-    title: "Tiling",
-    description:
-      "Precision floor and wall tiling for bathrooms, kitchens, and living areas — clean lines and lasting quality.",
-  },
-  {
-    icon: Monitor,
-    title: "Desktop Support",
-    description:
-      "Reliable IT helpdesk and desktop support for small businesses — troubleshooting, setup, and ongoing maintenance.",
+      "Painting, tiling, bricklaying, and general property maintenance — keeping your building looking sharp and structurally sound.",
   },
 ];
 
@@ -55,14 +43,14 @@ export default function Services() {
             What We Do
           </span>
           <h2 className="mt-3 font-[family-name:var(--font-heading)] text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Complete home & business solutions
+            Plumbing, water, electrical & maintenance
           </h2>
           <p className="mt-4 max-w-xl text-base text-muted-foreground">
-            From fixing a leak to landscaping your garden and setting up your office IT — we do it all with skill and reliability.
+            From leak repairs and JoJo tank installations to DB upgrades, tiling, and bricklaying — one trusted team for every job on your property.
           </p>
         </motion.div>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service, i) => (
             <motion.div
               key={service.title}
