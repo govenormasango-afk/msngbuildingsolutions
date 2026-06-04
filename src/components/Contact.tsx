@@ -22,10 +22,10 @@ export default function Contact() {
     {
       icon: MapPin,
       label: "Address",
-      value: "42 Builder Street, Melbourne VIC 3000",
+      value: "Gauteng, South Africa",
     },
-    { icon: Phone, label: "Phone", value: "+61 3 9123 4567" },
-    { icon: Mail, label: "Email", value: "hello@msng.build" },
+    { icon: Phone, label: "Phone", value: "082 384 8653" },
+    { icon: Mail, label: "Email", value: "msngbuilding@gmail.com" },
     { icon: Clock, label: "Hours", value: "Mon–Fri, 7:00 AM – 5:00 PM" },
   ];
 
