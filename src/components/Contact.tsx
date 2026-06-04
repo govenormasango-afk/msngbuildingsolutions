@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Linkedin, Facebook, Twitter } from "lucide-react";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -191,6 +191,41 @@ export default function Contact() {
                   </div>
                 </div>
               ))}
+            </div>
+
+            <div className="mt-10 border-t border-primary-foreground/10 pt-6">
+              <div className="text-sm font-medium text-primary-foreground/60">
+                Follow us
+              </div>
+              <div className="mt-3 flex gap-3">
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:7464949571266248705"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  className="flex h-10 w-10 items-center justify-center rounded-md bg-primary-foreground/10 text-accent transition-colors hover:bg-accent hover:text-accent-foreground"
+                >
+                  <Linkedin className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://x.com/SasolSA/status/2059183901138903261?s=20"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="X (Twitter)"
+                  className="flex h-10 w-10 items-center justify-center rounded-md bg-primary-foreground/10 text-accent transition-colors hover:bg-accent hover:text-accent-foreground"
+                >
+                  <Twitter className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://www.facebook.com/share/v/1E6M9EkXhM/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="flex h-10 w-10 items-center justify-center rounded-md bg-primary-foreground/10 text-accent transition-colors hover:bg-accent hover:text-accent-foreground"
+                >
+                  <Facebook className="h-5 w-5" />
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>
