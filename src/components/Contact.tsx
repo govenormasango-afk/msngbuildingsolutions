@@ -22,7 +22,7 @@ export default function Contact() {
     {
       icon: MapPin,
       label: "Address",
-      value: "Gauteng, South Africa",
+      value: "Embalelenhe, Mpumalanga",
     },
     { icon: Phone, label: "Phone", value: "082 384 8653" },
     { icon: Mail, label: "Email", value: "msngbuilding@gmail.com" },
