@@ -1,26 +1,33 @@
 import { motion } from "framer-motion";
-import project1 from "../assets/project-1.jpg";
-import project2 from "../assets/project-2.jpg";
-import project3 from "../assets/project-3.jpg";
+import plumbingImg from "../assets/project-plumbing.jpg";
+import electricalImg from "../assets/project-electrical.jpg";
+import bricklayingImg from "../assets/project-bricklaying.jpg";
+import paintingImg from "../assets/project-painting.jpg";
 
 const projects = [
   {
-    image: project1,
-    title: "The Henderson Residence",
-    category: "Residential Renovation",
-    location: "Melbourne, VIC",
+    image: plumbingImg,
+    title: "Plumbing & Leak Repairs",
+    category: "Plumbing Solutions",
+    location: "Embalenhle, South Africa",
   },
   {
-    image: project2,
-    title: "Civic Office Tower",
-    category: "Commercial Construction",
-    location: "Sydney, NSW",
+    image: electricalImg,
+    title: "DB Board & Wiring",
+    category: "Electrical Solutions",
+    location: "Embalenhle, South Africa",
   },
   {
-    image: project3,
-    title: "The Banksia Kitchen",
-    category: "Interior Remodel",
-    location: "Brisbane, QLD",
+    image: bricklayingImg,
+    title: "Bricklaying & Building",
+    category: "Building Maintenance",
+    location: "Embalenhle, South Africa",
+  },
+  {
+    image: paintingImg,
+    title: "Interior & Exterior Painting",
+    category: "Finishing Work",
+    location: "Embalenhle, South Africa",
   },
 ];
 
@@ -49,7 +56,7 @@ export default function Projects() {
           </div>
         </motion.div>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {projects.map((project, i) => (
             <motion.div
               key={project.title}
