@@ -115,7 +115,7 @@ export default function Contact() {
                         setFormState({ ...formState, phone: e.target.value })
                       }
                       className="w-full rounded-md border border-primary-foreground/20 bg-primary-foreground/5 px-4 py-3 text-sm text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
-                      placeholder="+61 400 000 000"
+                      placeholder="082 000 0000"
                     />
                   </div>
                   <div>
