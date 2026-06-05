@@ -49,10 +49,17 @@
 
   --font-heading: 'Urbanist', sans-serif;
   --font-body: 'Epilogue', sans-serif;
+
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-orange: var(--brand-orange);
 }
 
 :root {
   --radius: 0.5rem;
+
+  /* MSNG brand colors (from logo) */
+  --brand-blue: oklch(0.42 0.18 265);
+  --brand-orange: oklch(0.68 0.18 50);
 
   /* Warm architectural palette */
   --background: oklch(0.975 0.004 80);
@@ -112,5 +119,6 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     font-weight: 600;
+    color: var(--brand-blue);
   }
 }
