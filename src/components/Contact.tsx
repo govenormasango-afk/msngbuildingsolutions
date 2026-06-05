@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock, Linkedin, Facebook, Twitter } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Linkedin, Facebook, Twitter, MessageCircle } from "lucide-react";
+
+const WHATSAPP_URL = "https://wa.me/27823848653?text=Hi%20MSNG%2C%20I%27d%20like%20a%20quote%20for%20a%20job.";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -163,6 +165,15 @@ export default function Contact() {
                 >
                   Send Message
                 </button>
+                <a
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-0 mt-3 inline-flex w-full items-center justify-center gap-2 rounded-md bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1ebe57] sm:ml-3 sm:mt-0 sm:w-auto"
+                >
+                  <MessageCircle className="h-4 w-4" />
+                  Chat on WhatsApp
+                </a>
               </form>
             )}
           </motion.div>
