@@ -81,9 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "MSNG Building Solutions — expert construction, renovation, and building services for residential and commercial projects." },
       { name: "author", content: "MSNG Building Solutions" },
       { property: "og:title", content: "MSNG Building Solutions" },
-      { property: "og:description", content: "Expert construction and renovation services built to last." },
+      { property: "og:description", content: "MSNG Building Solutions — expert construction, renovation, and building services for residential and commercial projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "MSNG Building Solutions" },
+      { name: "twitter:description", content: "MSNG Building Solutions — expert construction, renovation, and building services for residential and commercial projects." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/trV1nwmh8kQM0GtYPDLODi1HhXU2/social-images/social-1780641154108-1000117916.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/trV1nwmh8kQM0GtYPDLODi1HhXU2/social-images/social-1780641154108-1000117916.webp" },
     ],
     links: [
       {
