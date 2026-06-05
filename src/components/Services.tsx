@@ -1,27 +1,35 @@
 import { motion } from "framer-motion";
 import { Droplets, Zap, Wrench, CloudRain } from "lucide-react";
+import plumbingImg from "../assets/service-plumbing.jpg";
+import waterImg from "../assets/service-water.jpg";
+import electricalImg from "../assets/service-electrical.jpg";
+import maintenanceImg from "../assets/service-maintenance.jpg";
 
 const services = [
   {
     icon: Wrench,
+    image: plumbingImg,
     title: "Plumbing Solutions",
     description:
       "Leak detection & repairs, burst pipes, drain unblocking, pipe installations, tap & toilet repairs, geyser installations and repairs, bathroom & kitchen plumbing, water pressure solutions, and general plumbing maintenance.",
   },
   {
     icon: CloudRain,
+    image: waterImg,
     title: "Water Solutions",
     description:
       "JoJo tank installations, water tank connections, water pumps, borehole connections, rainwater harvesting systems, water filtration systems, and water storage solutions.",
   },
   {
     icon: Zap,
+    image: electricalImg,
     title: "Electrical Solutions",
     description:
       "Electrical installations & repairs, house wiring and rewiring, fault finding, DB board upgrades, DB board installations and repairs, sub-meter & prepaid meter installations, lighting, plug & switch installations, and electrical maintenance.",
   },
   {
     icon: Droplets,
+    image: maintenanceImg,
     title: "Building Maintenance",
     description:
       "Painting, tiling, bricklaying, paving, ceiling installations and repairs, waterproofing, roof repairs, plastering, renovations, and general property maintenance.",
@@ -58,17 +66,29 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group rounded-lg border border-border bg-card p-6 transition-all hover:border-accent/30 hover:shadow-md"
+            className="group overflow-hidden rounded-lg border border-border bg-card transition-all hover:border-accent/30 hover:shadow-md"
             >
-              <div className="mb-5 inline-flex rounded-md bg-accent/10 p-3 text-accent transition-colors group-hover:bg-accent group-hover:text-accent-foreground">
+            <div className="relative aspect-[4/3] overflow-hidden">
+              <img
+                src={service.image}
+                alt={service.title}
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                width={1024}
+                height={768}
+                loading="lazy"
+              />
+            </div>
+            <div className="p-6">
+              <div className="mb-4 inline-flex rounded-md bg-accent/10 p-3 text-accent transition-colors group-hover:bg-accent group-hover:text-accent-foreground">
                 <service.icon className="h-6 w-6" />
               </div>
-              <h3 className="font-[family-name:var(--font-heading)] text-lg font-semibold text-card-foreground">
+              <h3 className="font-[family-name:var(--font-heading)] text-lg font-semibold">
                 {service.title}
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
                 {service.description}
               </p>
+              </div>
             </motion.div>
           ))}
         </div>
