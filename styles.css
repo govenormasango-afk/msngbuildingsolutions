@@ -136,12 +136,72 @@ body {
 
 .service-card p {
     color: #666;
+    text-align: left;
+}
+
+/* Why Choose Us Section */
+.why-choose {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.why-choose h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1a1a1a;
+}
+
+.why-choose-content p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #00d4ff;
+    transition: all 0.3s;
+}
+
+.benefit-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.checkmark {
+    font-size: 1.5rem;
+    color: #00d4ff;
+    font-weight: bold;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.benefit-item p {
+    color: #333;
+    font-size: 1rem;
 }
 
 /* About Section */
 .about {
     padding: 80px 0;
-    background-color: white;
+    background-color: #f5f5f5;
 }
 
 .about h2 {
@@ -156,7 +216,7 @@ body {
     font-size: 1.1rem;
     color: #666;
     margin-bottom: 3rem;
-    max-width: 800px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -188,14 +248,21 @@ body {
 /* Contact Section */
 .contact {
     padding: 80px 0;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 .contact h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     color: #1a1a1a;
+}
+
+.contact > .container > p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
 }
 
 .contact-form {
